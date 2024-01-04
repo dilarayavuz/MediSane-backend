@@ -1,6 +1,6 @@
 # MediSane
 
-A COMP491 Senior Design Project  <br />
+A COMP491 Senior Design Project__
+[MediSane Backend](https://github.com/dilarayavuz/MediSane-backend)__
+[MediSane Android](https://github.com/dilarayavuz/MediSane-android)__
 
-Backend: https://github.com/dilarayavuz/MediSane-backend  <br />
-Android: https://github.com/dilarayavuz/MediSane-android  <br />
