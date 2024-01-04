@@ -1,3 +1,2 @@
-theme: jekyll-theme-minimal
-title: MediSane
-description: COMP491 Senior Design Project: MediSane
+name: MediSane
+theme: minima
