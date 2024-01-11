@@ -1,15 +1,87 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Document </title>
-  </head>
-  <body>
-    <h1> MediSane </h1>
-    <img src=blob/images/medisane_logo.png  alt="MediSane Logo">
-    <div style="display: flex; flex-direction: column;">
-      <a href="https://github.com/dilarayavuz/MediSane-backend">MediSane Backend Repository</a>
-      <a href="https://github.com/dilarayavuz/MediSane-android">MediSane Android Repository</a>
+    <title>Styled Box with Links and Icon</title>
+    <!-- Include your icon URL in the href attribute -->
+    <link rel="icon" href="blob/images/medisane_logo.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 30px;
+            text-align: center;
+            background-color: #e5cdff;
+        }
+
+        .row-box {
+            border-radius: 10px;
+            padding: 50px;
+            background-color: #e5cdff;
+            max-width: 700px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .box {
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            margin: 60px auto;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #2A00C7;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #EFD118;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <div class="box">
+          <img src=blob/images/medisane_logo.png  alt="MediSane Logo">
+        </div>
+
+        <div class="row-box">
+              <div class="box">
+                <img src=blob/images/python_logo.png  alt="Python Logo" style="width:50px;height:60px;">
+                <a href="https://github.com/dilarayavuz/MediSane-backend">MediSane Backend Repository</a>
+              </div>
+              <div class="box">
+                <img src=blob/images/android_logo.png  alt="Android Logo" style="width:50px;height:60px;">
+                <a href="https://github.com/dilarayavuz/MediSane-android">MediSane Android Repository</a>
+              </div>
+
+        </div>
+        
     </div>
-  </body>
+
+</body>
 </html>
